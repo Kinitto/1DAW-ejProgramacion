@@ -1,0 +1,20 @@
+package es.studium.Tablas1;
+
+public class Tablas1 {
+
+	public static void main(String[] args) {
+		
+		int [] Pares = new int [20];
+		int i;
+		
+		for (i=0;i<20;i++) {
+			Pares[i]=i*2;
+		}
+		
+		for (i=0;i<20;i++) {
+			System.out.println(Pares[i]);
+		}
+				
+	}
+
+}

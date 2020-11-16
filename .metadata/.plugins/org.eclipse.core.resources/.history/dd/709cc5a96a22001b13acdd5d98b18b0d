@@ -1,0 +1,10 @@
+package es.studium.Ejemplo1tabla;
+
+public class Ejemplo1tabla {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
