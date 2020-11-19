@@ -1,0 +1,13 @@
+PROGRAMA tablaMultiplicar
+VARIABLES
+	ENTERO num1, i
+INICIO
+	ESCRIBIR "Dame un número entero:"
+	LEER num1
+	ESCRIBIR "La tabla de multiplicar de" + num1 + "es"		
+
+	PARA i=0 HASTA i <= 10 HACER
+		
+		ESCRIBIR i + "x" + numero + "=" + (i*num1)
+	FINPARA	
+FIN

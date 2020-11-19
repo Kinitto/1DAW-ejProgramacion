@@ -1,0 +1,20 @@
+PROGRAMA OPERACIONES
+VARIABLES 
+	ENTERO num1, num2
+INICIO
+	ESCRIBIR "dame un numero entero"
+	LEER num1
+	ESCRIBIR "Dame otro numero entero"
+	LEER num2
+
+	ESCRIBIR "La suma de los numeros vale" + (num1+num2)
+	ESCRIBIR "La resta de los numeros vale" + (num1-num2)
+	ESCRIBIR "El producto de los numeros vale" + (num1*num2)
+
+	SI num2 != 0 ENTONCES
+		ESCRIBIR "El cociente de los numeros vale" + 
+		(num1/num2)
+		SINO 
+			ESCRIBIR "No se puede dividir entre 0"
+	FINSI
+FIN

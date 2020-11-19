@@ -1,0 +1,39 @@
+PROGRAMA OPERACIONES2
+VARIABLES 
+	ENTERO num1, num2
+INICIO
+	ESCRIBIR "dame un numero entero"
+	LEER num1
+	ESCRIBIR "Dame otro numero entero"
+	LEER num2
+
+	ESCRIBIR "La suma de los numeros vale" + sumaFun(num1+num2)
+	ESCRIBIR "La resta de los numeros vale" + restaFun(num1-num2)
+	ESCRIBIR "El producto de los numeros vale" + productoFun(num1*num2)
+	SI b != 0 ENTONCES
+		ESCRIBIR "El cociente de los numeros vale" + divisionFun(num1/num2)
+	SINO 
+		ESCRIBIR "El no se puede dividir entre 0"
+	FINSI
+
+FUNCION sumaFun(ENTERO a, ENTERO b) DEVUELVE ENTERO
+VARIABLES
+INICIO
+	devolver (a+b)
+FIN
+FUNCION restaFun(ENTERO a, ENTERO b) DEVUELVE ENTERO
+VARIABLES
+INICIO
+	devolver (a-b)
+FIN
+FUNCION productoFun(ENTERO a, ENTERO b) DEVUELVE ENTERO
+VARIABLES
+INICIO
+	devolver (a*b)
+FIN
+FUNCION divFun(REAL a, REAL b) DEVUELVE REAL
+VARIABLES
+INICIO
+		devolver (a/b)
+	
+FIN

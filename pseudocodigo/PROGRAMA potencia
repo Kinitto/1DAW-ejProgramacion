@@ -1,0 +1,21 @@
+PROGRAMA potencia
+Variables
+	ENTERO base, exp, i, resultado
+INICIO
+
+	ESCRIBIR "Dame la base de un numero"
+	LEER base
+	ESCRIBIR" "Dame el exponente del numero"
+	LEER exp
+
+	resultado = 1
+	
+	PARA i = 1 HASTA exp HACER
+
+		resultado = resultado * base
+
+	FINPARA
+
+	ESCRIBIR "la potencia del numero es" + resultado
+
+FIN

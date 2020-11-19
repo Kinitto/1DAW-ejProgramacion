@@ -1,0 +1,21 @@
+PROGRAMA potencia2
+VARIABLES 
+	ENTERO base, exponente
+INICIO
+	ESCRIBIR "Dame la base"
+	LEER base
+	ESCRIBIR "Dame el exponente"
+	LEER exponente
+
+	ESCRIBIR "El resultado vale " + potenciaFun(base, exponente)
+FIN
+FUNCION potenciaFun(ENTERO b, ENTERO e)
+VARIABLES
+	ENTERO i
+	REAL r
+INICIO
+	r=1
+	PARA i = 1 hasta <= e HACER
+	r=r*b
+	devolver r
+FIN

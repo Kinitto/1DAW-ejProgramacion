@@ -1,0 +1,34 @@
+PROGRAMA dividir
+
+VARIABLES
+
+	ENTERO num1, num2
+	REAL resultado
+
+INICIO
+
+	ESCRIBIR "Dame un numero entero:"
+	LEER num1
+	ESCRIBIR "Dame otr numero entero"
+	LEER num2
+
+	SI num2 = 0 ENTONCES
+		ESCRIBIR "el segundo numero no puede ser 0"
+	SINO
+
+		resultado = funDividir(num1, num2)
+		ESCRIBIR "la division vale" + resultado
+
+	FINSI
+
+FIN
+
+FUNCION funDividir (ENTERO a, ENTERO b) DEVUELVE REAL
+VARIABLES
+	REAL R
+
+INICIO
+
+	r= a/b
+	devolver r
+FIN

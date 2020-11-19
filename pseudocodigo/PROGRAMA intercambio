@@ -1,0 +1,16 @@
+PROGRAMA intercambio
+VARIABLES
+	ENTERO num1, num2, comodin
+INICIO
+	ESCRIBIR "Dame un número entero:"
+	LEER num1
+	ESCRIBIR "Dame otro número entero:"
+	LEER num2
+
+	comodin=num1
+	num1=num2
+	num2=comodin
+
+	ESCRIBIR "El primer numero es" + num1
+	ESCRIBIR "El segundo numero es" + num2
+FIN

@@ -1,0 +1,30 @@
+PROGRAMA binarioadecimal
+VARIABLES 
+	ENTERO cifra1, cifra2, cifra3, cifra4, cifra5
+INICIO
+	HACER
+		ESCRIBIR "dame la primera cifra x----"
+		LEER cifra1
+	Mientras cifra1 !=0 y cifra1!=0
+	HACER
+		ESCRIBIR "dame la segunda cifra -x---"
+		LEER cifra2
+	HACER
+		Mientras cifra2 !=0 y cifra1!=0
+		ESCRIBIR "dame la tercera cifra --x--"
+		LEER cifra3
+	HACER
+		Mientras cifra3 !=0 y cifra1!=0
+		ESCRIBIR "dame la cuarta cifra ---x-" 
+		LEER cifra4
+		Mientras cifra4 !=0 y cifra1!=0
+	HACER
+		ESCRIBIR "dame la quinta cifra ----x"
+		LEER cifra5
+		Mientras cifra5 !=0 y cifra1!=0
+
+	ESCRIBIR "El numero en decimal vale" + calcular(cifra1, cifra2, cifra3, cifra4, cifra5)
+FIN
+FUNCION calcular (ENTERO a, b, c, d, e) DEVUELVE ENTERO
+	DEVOLVER (a*2*2*2*2+b*2*2*2+c*2*2+d*2+e)
+FIN

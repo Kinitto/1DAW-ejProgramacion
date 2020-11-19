@@ -1,0 +1,30 @@
+PROGRAMA OPERACIONES3
+VARIABLES 
+	ENTERO num1, num2, num3
+INICIO
+	ESCRIBIR "dame un numero entero"
+	LEER num1
+	ESCRIBIR "Dame otro numero entero"
+	LEER num2
+	ESCRIBIR "Dame otro numero entero"
+	LEER num3
+
+	ESCRIBIR "La suma de los numeros vale" + sumaFun(num1, num2, num3)
+	ESCRIBIR "El producto de los numeros vale" + productoFun(num1, num2, num3)
+	ESCRIBIR "La media de los numeros vale" + restaFun(num1, num2 num3)
+
+FUNCION sumaFun(ENTERO a, ENTERO b, ENTERO c) DEVUELVE ENTERO
+VARIABLES
+INICIO
+	devolver (a+b+c)
+FIN
+FUNCION productoFun(ENTERO a, ENTERO b, ENTERO c) DEVUELVE ENTERO
+VARIABLES
+INICIO
+	devolver (a*b*c)
+FIN
+FUNCION mediaFun(ENTERO a, ENTERO b) DEVUELVE REAL
+VARIABLES
+INICIO
+	devolver (suma(a,b,c)/3)
+FIN

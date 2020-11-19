@@ -1,0 +1,18 @@
+PROGRAMA meses
+VARIABLES 
+	ENTERO mes
+INICIO
+	HACER
+		ESCRIBIR "dame el mes en numero (1-12)"
+		LEER mes
+	MIENTRAS mes<1 O mes>12
+	SEGUN mes HACER 
+		CASO 1:
+			ESCRIBIR "Enero"
+		CASO 2:
+			ESCRIBIR "Febrero"
+		CASO 3:
+			ESCRIBIR "Marzo"
+			...
+		FIN SEGUN
+FIN

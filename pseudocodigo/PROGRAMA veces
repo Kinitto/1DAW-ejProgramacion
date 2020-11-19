@@ -1,0 +1,13 @@
+PROGRAMA veces
+VARIABLES
+	ENTERO num1, num2, i
+INICIO
+	ESCRIBIR "Dame un número entero:"
+	LEER num1
+	ESCRIBIR "Dame otro número entero:"
+
+	PARA i=1 HASTA i <= num1 HACER
+		ESCRIBIR num2
+	FINPARA
+	
+FIN

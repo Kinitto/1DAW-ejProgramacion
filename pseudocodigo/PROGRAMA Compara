@@ -1,0 +1,34 @@
+PROGRAMA Compara
+
+VARIABLES
+
+	ENTERO num1, num2
+
+
+INICIO
+
+	ESCRIBIR "Dame un numero entero:"
+	LEER num1
+	ESCRIBIR "Dame otr numero entero"
+	LEER num2
+
+	SI num1 = num2 ENTONCES
+
+		ESCRIBIR "Los numeros son iguales"
+
+	SINO
+
+		SI num1 > num2 ENTONCES
+
+			ESCRIBIR "Numero1 es mas grande"
+
+		SINO
+
+			ESCRIBIR "Numero2 es mas grande"
+			
+		FINSI
+
+	FINSI
+
+	
+FIN

@@ -1,0 +1,21 @@
+Programa paresimpares
+variables
+	entero suma
+	entero producto
+	entero i
+
+	suma = 0
+	producto = 1
+
+inicio
+	para i = 0 hasta 40 hacer
+		si i%2 = 0 entonces
+			suma = suma + i
+		sino
+			producto = producto * i
+		finsi
+	finpara
+	
+	escribir "la suma de los pares es" + suma
+	escribir "el producto de los impares es " + producto
+fin

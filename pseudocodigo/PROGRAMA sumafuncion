@@ -1,0 +1,18 @@
+PROGRAMA sumafuncion
+VARIABLES
+	ENTERO num1, num2, comodin
+INICIO
+	ESCRIBIR "Dame un número entero:"
+	LEER num1
+	ESCRIBIR "Dame otro número entero:"
+	LEER num2
+
+	ESCRIBIR "La suma de los numeros vale" + sumaFun(num1, num2)
+FIN
+
+FUNCION sumaFun(ENTERO a, ENTERO b)
+VARIABLES
+INICIO
+	r=a+b
+	devolver a+b
+FIN

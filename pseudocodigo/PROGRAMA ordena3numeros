@@ -1,0 +1,36 @@
+PROGRAMA ordena3numeros
+VARIABLES 
+	ENTERO a, b, c
+INICIO
+	ESCRIBIR "Dame un numero entero"
+	LEER a
+	ESCRIBIR "Dame otro numero entero"
+	LEER b
+	ESCRIBIR "Dame el ultimo numero entero"
+	LEER c
+
+	SI a <=b y b<=c ENTONCES
+			ESCRIBIR a + "<=" + b + "<=" + c
+		SINO 
+			SI a <=b y b<=c ENTONCES
+				ESCRIBIR a + "<=" + b + "<=" + c
+			SINO
+				SI a <=b y b<=c ENTONCES
+					ESCRIBIR a + "<=" + b + "<=" + c
+				SINO 
+					SI a <=b y b<=c ENTONCES
+						ESCRIBIR a + "<=" + b + "<=" + c
+					SINO 
+						SI a <=b y b<=c ENTONCES
+							ESCRIBIR a + "<=" + b + "<=" + c
+						SINO 
+							ESCRIBIR a + "<=" + b + "<=" + c
+						FINSI
+					FINSI
+				FINSI
+			FINSI
+		
+	FINSI
+
+FIN	
+		

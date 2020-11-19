@@ -1,0 +1,20 @@
+Programa pares
+variables
+entero = numero1
+entero = numero2
+entero = i
+
+inicio
+
+escribir "introduce el primer numero"
+leer numero1
+escribir "introduce el segundo numero"
+leer numero2
+
+para i = numero1 hasta i <= numero2 Hacer
+
+si i%2 = 0 entonces
+escribir i
+finsi
+finpara
+finprograma

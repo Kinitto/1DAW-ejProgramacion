@@ -1,0 +1,14 @@
+PROGRAMA segun
+VARIABLES
+	ENTERO num1, num2
+INICIO
+	ESCRIBIR "Dame un número entero:"
+	LEER num1
+	ESCRIBIR "Dame otro número entero:"
+	LEER num2
+	SI num1 < num2 ENTONCES
+		ESCRIBIR "La suma vale" + (num1+num2)
+	SINO
+		ESCRIBIR "El producto vale" + (num1*num2)
+	FINSI
+FIN
