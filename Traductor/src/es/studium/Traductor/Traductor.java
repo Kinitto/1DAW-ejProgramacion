@@ -46,7 +46,7 @@ public class Traductor {
 		diccionario[1][5] = "Are";
 		diccionario[1][6] = "Is";
 		diccionario[1][7] = "Tall";
-		diccionario[1][8] = "Small";
+		diccionario[1][8] = "Short";
 	}
 
 	/**
